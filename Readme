@@ -1,0 +1,19 @@
+# Screen Effect
+## Realistic water
+https://cdn.discordapp.com/attachments/591982628476026891/1235400069759631360/image.png
+
+# Post process
+## Depth of field
+## SSAO
+## Tone Mapping
+## Bloom
+## Vignette
+
+## Documents
+
+https://zhuanlan.zhihu.com/p/656243278
+可以通过NDC.xy / NDC.w 得到screenuv
+
+https://blog.csdn.net/chy555chy/article/details/80177015
+可以通过
+normalize(cross(ddx()),ddy())获取屏幕法线
